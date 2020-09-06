@@ -102,7 +102,7 @@ x_train, x_test, y_train, y_test = train_test_split(x_final,rates, test_size = 0
 # taken three deeper layers of 2000 units each
 # Relu as activation in the hidden layers
 # the output layer has 3 units as the one hot encoding has 3 columns
-# the classification is in categorical
+# the classification is in categorical so use of softmax function
 
 
 from keras.models import Sequential
